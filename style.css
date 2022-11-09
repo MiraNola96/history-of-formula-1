@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'roboto', sanserif;
+    font-size: 1rem;
+    background: rgba(242, 244, 247, 1);
+  }
+
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  /*navbar*/
+  .navbar {
+    background:rgba(6, 14, 40, 1);
+    padding: .3em;
+    top: 0;
+    z-index: 1;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    list-style-type: none;
+    padding: 5px 50px
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgba(228, 58, 25, 1);
+    padding: 1em;
+  }
+  
+  .navbar ul li a:hover {
+      transition:1s;
+      color: white;
+      background-color: rgba(139, 41, 21, 1);
+      border-radius:10px;
+      }
+  /*Navbar*/
+
+  /*paralax/hero*/
+  .pimg-hero, .pimg2, .pimg3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pimg-hero {
+    background-image: url(images/1950s/Hero\ Background.jpg);
+    min-height: 100vh;
+  }
+  
+  .pimg2 {
+    background-image: url(images/1960s_70s/james_hunt_mclaren.jpg);
+    min-height: 400px;
+  }
+  
+  .pimg3 {
+    background-image: url(images/1980s_90s/ayrton_senna_1980s/senna_mclaren.jpeg );
+    min-height: 400px;
+  }
+  /*paralax/hero*/
+
+  /*Section start*/
+  .section {
+    margin-top: 25px;
+    display: flex;
+    gap: 1em;
+    box-sizing: border-box;
+  }
+
+  .card-content {
+    align-content: center;
+
+  }
+
+  .card-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1em;
+  }
+
+  .card-image-photo {
+    width: 45%;
+    height: 215px;
+  }
+
+  .card-images img {
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
