@@ -47,32 +47,18 @@
       }
   /*Navbar*/
 
-  /*paralax/hero*/
-  .pimg-hero, .pimg2, .pimg3 {
+  /*hero image*/
+  .hero {
+    background-image: url(images/1950s/Hero\ Background.jpg);
+    height: 90vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
   }
-
-  .pimg-hero {
-    background-image: url(images/1950s/Hero\ Background.jpg);
-    min-height: 100vh;
+  .partition {
+    margin-top: 50px;
   }
-  
-  .pimg2 {
-    background-image: url(images/1960s_70s/james_hunt_mclaren.jpg);
-    min-height: 400px;
-  }
-  
-  .pimg3 {
-    background-image: url(images/1980s_90s/ayrton_senna_1980s/senna_mclaren.jpeg );
-    min-height: 400px;
-  }
-  /*paralax/hero*/
 
   /*Section start*/
   .section {
@@ -96,7 +82,7 @@
 
   .card-image-photo {
     width: 45%;
-    height: 215px;
+    height: 250px;
   }
 
   .card-images img {
