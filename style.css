@@ -40,12 +40,18 @@
   }
   
   .navbar ul li a:hover {
-      transition:1s;
-      color: white;
-      background-color: rgba(139, 41, 21, 1);
-      border-radius:10px;
-      }
+    transition:1s;
+    color: white;
+    background-color: rgba(139, 41, 21, 1);
+    border-radius:10px;
+   }
   /*Navbar*/
+
+ /*
+.card-content{
+  border-top-color:rgba(228, 58, 25, 1);
+}
+*/
 
   /*hero image*/
   .hero {
@@ -60,7 +66,7 @@
     margin-top: 50px;
   }
 
-  /*Section start*/
+  /*all photo content*/
   .section {
     margin-top: 25px;
     display: flex;
@@ -91,3 +97,23 @@
     object-fit: cover;
 
   }
+  /*all photo content*/
+
+  /*constructor section*/
+  .constructor-content {
+    margin: 0, auto;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .constructor-content p {
+    line-height: 2em;
+  }
+
+  .constructor-carousel {
+    background-color:rgba(6, 14, 40, 1);
+  }
+  /*constructor section*/
