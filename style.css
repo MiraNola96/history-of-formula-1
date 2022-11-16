@@ -18,9 +18,25 @@
   /*navbar*/
   .navbar {
     background:rgba(6, 14, 40, 1);
-    padding: .3em;
-    top: 0;
-    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    padding: 10px;
+    /* left: 30%;
+    top:25%;
+    transform: translate(0,0);
+    transition: 3s;
+    border-radius: 50px;
+    margin-left: -50px;
+    padding-top: 15px;
+    padding-bottom: 15px; */
   }
   
   nav ul {
@@ -30,7 +46,8 @@
   
   nav li {
     list-style-type: none;
-    padding: 5px 50px
+    padding: 5px 50px; 
+
   }
   
   nav a {
@@ -46,12 +63,6 @@
     border-radius:10px;
    }
   /*Navbar*/
-
- /*
-.card-content{
-  border-top-color:rgba(228, 58, 25, 1);
-}
-*/
 
   /*hero image*/
   .hero {
@@ -74,21 +85,19 @@
     box-sizing: border-box;
   }
 
-  .card-content {
-    align-content: center;
-
-  }
-
   .card-images {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     gap: 1em;
+    flex: 1;
   }
+
+ 
 
   .card-image-photo {
     width: 45%;
-    height: 250px;
+    height: 215px;
   }
 
   .card-images img {
@@ -114,6 +123,41 @@
   }
 
   .constructor-carousel {
-    background-color:rgba(6, 14, 40, 1);
+    background:rgba(6, 14, 40, 1);
   }
   /*constructor section*/
+
+  /* informative text and decoration in each section */
+  .card-content {
+    align-content: center;
+    flex: 2;
+    /* border-top: 15px solid rgba(228, 58, 25, 1); */
+  }
+
+  .card-content iframe {
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    height: 315px;
+  }
+
+  .card-content p::before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 15px;
+    margin-bottom: 15px;
+    background: rgba(228, 58, 25, 1);
+  }
+
+  .card-content p {
+    line-height: 2em;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    background:rgba(6, 14, 40, 1);
+  }
