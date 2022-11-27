@@ -192,3 +192,7 @@
   .card img {
     display: center;
   }
+
+  .card-content iframe {
+    margin-top: 25px;
+  }
