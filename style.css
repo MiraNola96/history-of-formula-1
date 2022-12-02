@@ -231,8 +231,10 @@
   }
 
   .card .card-cars {
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
     width: 100%;
-    margin: 0;
   }
 
   .card-content iframe {
