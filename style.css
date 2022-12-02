@@ -27,7 +27,7 @@
     width: 100px;
     height: 100px;
     margin-left: 20px;
-    padding: 10px;
+    padding: 15px;
   }
   
   nav ul {
@@ -43,39 +43,48 @@
   
   nav a {
     text-decoration: none;
-    color: rgba(228, 58, 25, 1);
+    color: rgba(242, 244, 247, 1);
     padding: 1em;
-    font-size: 15px;
+    font-size: 20px;
   }
 
 /*drop down*/
   nav ul li ul {
-    background:rgba(95, 116, 183, 1);
+    background:rgba(139, 41, 21, 1);
     display: none;
     position: absolute;
     padding: 10px;
+    transition: .2s;
+
   }
+
+
 
   nav ul li:hover ul {
     display: block;
+    z-index: 5;
   }
 
-  nav ul li ul li a:hover {
-    background-color: rgba(95, 116, 183, 1);
-  }
+  /* nav ul li ul li a:hover {
+    background-color: rgba(139, 41, 21, 1);
+    
+
+  } */
 
   nav ul li ul li {
     width: 180px;
     border-radius: 4px;
+    font-size: 10px;
   }
 
   nav ul li ul li a {
     padding: 8px 14px;
+    font-size: 15px;
   }
   /*drop down*/
   
-  .navbar ul li a:hover {
-    transition:1s;
+  nav ul li a:hover {
+    transition: .2s;
     color: white;
     background-color: rgba(139, 41, 21, 1);
     border-radius:10px;
@@ -204,18 +213,26 @@
   
 
   .card {
-    width:250px;
-    min-height: 794px;
+    width:375px;
+    min-height: 730px;
     padding:20px;
     margin:10px;
     background: rgba(95, 116, 183, 1);
     /* text-align: left; */
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .card img {
     display: block;
-    margin: 10px auto;
+    margin: 30px auto;
+  }
+
+  .card .card-cars {
+    width: 100%;
+    margin: 0;
   }
 
   .card-content iframe {
@@ -258,4 +275,8 @@
 
   .social-icons img {
     display: flex;
+  }
+
+  .store-icons {
+    margin-top: 10px;
   }
