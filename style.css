@@ -28,14 +28,6 @@
     height: 100px;
     margin-left: 20px;
     padding: 10px;
-    /* left: 30%;
-    top:25%;
-    transform: translate(0,0);
-    transition: 3s;
-    border-radius: 50px;
-    margin-left: -50px;
-    padding-top: 15px;
-    padding-bottom: 15px; */
   }
   
   nav ul {
@@ -46,20 +38,48 @@
   nav li {
     list-style-type: none;
     padding: 5px 30px; 
+    position: relative;
   }
   
   nav a {
     text-decoration: none;
     color: rgba(228, 58, 25, 1);
     padding: 1em;
+    font-size: 15px;
   }
+
+/*drop down*/
+  nav ul li ul {
+    background:rgba(95, 116, 183, 1);
+    display: none;
+    position: absolute;
+    padding: 10px;
+  }
+
+  nav ul li:hover ul {
+    display: block;
+  }
+
+  nav ul li ul li a:hover {
+    background-color: rgba(95, 116, 183, 1);
+  }
+
+  nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+  }
+
+  nav ul li ul li a {
+    padding: 8px 14px;
+  }
+  /*drop down*/
   
   .navbar ul li a:hover {
     transition:1s;
     color: white;
     background-color: rgba(139, 41, 21, 1);
     border-radius:10px;
-   }
+   }   
   /*Navbar*/
 
   /*hero image*/
