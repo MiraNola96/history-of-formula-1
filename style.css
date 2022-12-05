@@ -4,10 +4,16 @@
     box-sizing: border-box;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Racing+Sans+One&display=swap');
+
   body {
     font-family: 'roboto', sanserif;
     font-size: 1rem;
     background: rgba(242, 244, 247, 1);
+  }
+
+  p {
+    font-family: 'Maven Pro', sans-serif;
   }
 
   .container {
@@ -21,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Racing Sans One', cursive;
   }
 
   .logo {
