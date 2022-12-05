@@ -261,6 +261,10 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .secondary-navigation {
+    font-family: 'Racing Sans One', cursive;
+  }
   
   .secondary-navigation li {
     list-style-type: none;
